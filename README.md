@@ -18,7 +18,14 @@ Generates image embeddings and upload to 🤗
 ```python
 create_dataset_embeddings(input_dataset='tonyassi/fashion-decade-images-1',
                           output_dataset='tonyassi/fashion-decade-images-1-embeddings',
-                          token='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',
+                          token='YOUR_TOKEN')
+
+```
+
+```python
+create_dataset_embeddings(input_dataset='tonyassi/fashion-decade-images-1',
+                          output_dataset='tonyassi/fashion-decade-images-1-embeddings',
+                          token='YOUR_TOKEN',
                           model_ckpt='tonyassi/fashion-clothing-decade')
 
 ```
